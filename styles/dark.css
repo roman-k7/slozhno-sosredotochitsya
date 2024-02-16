@@ -3,10 +3,16 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --main-text-color: #f1b2ce;
+  --title-color: #db00ff;
+  --title-shadow: #ff0070;
+  --hover-color: 1px solid #ff0070;
+  --background-color: #000028;
+  --background-image: url(../images/cover-image-dark.png);
+  --menu-color: var(--title-shadow);
+  --rec-color: var(--title-shadow);
+  --article-title-color: var(--background-color);
+  --section-title-color: var(--title-shadow);
+  --link-shadow: var(--title-shadow);
 }
