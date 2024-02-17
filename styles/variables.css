@@ -5,36 +5,18 @@
 :root {
   --main-font: "IBM Plex mono";
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --main-text-color: #f1b2ce;
-    --title-color: #db00ff;
-    --title-shadow: #ff0070;
-    --hover-color: 1px solid #ff0070;
-    --background-color: #000028;
-    --background-image: url(../images/cover-image-dark.png);
-    --menu-color: var(--title-shadow);
-    --rec-color: var(--title-shadow);
-    --title-decor: var(--title-shadow);
-    --article-title-color: var(--background-color);
-    --section-title-color: var(--title-shadow);
-    --link-shadow: var(--title-shadow);
-  }
-}
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --main-text-color: #353430;
-    --title-color: #ffc2e6;
-    --title-shadow: #ff0070;
-    --title-decor: #ff8dcb;
-    --hover-color: 1px solid #353430;
-    --background-color: #fff1f7;
-    --background-image: url(../images/cover-image-light.png);
-    --menu-color: var(--main-text-color);
-    --rec-color: var(--background-color);
-    --article-title-color: var(--main-text-color);
-    --section-title-color: var(--main-text-color);
-    --link-shadow: var(--title-decor);
-  }
+:root {
+  --main-text-color: #353430;
+  --title-color: #ffc2e6;
+  --title-shadow: #ff0070;
+  --title-decor: #ff8dcb;
+  --hover-color: 1px solid #353430;
+  --background-color: #fff1f7;
+  --background-image: url(../images/cover-image-light.png);
+  --menu-color: var(--main-text-color);
+  --rec-color: var(--background-color);
+  --article-title-color: var(--main-text-color);
+  --section-title-color: var(--main-text-color);
+  --link-shadow: var(--title-decor);
 }

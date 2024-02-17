@@ -1,17 +1,20 @@
 /*
   das
 */
-.page.theme_light {
-  --main-text-color: #353430;
-  --title-color: #ffc2e6;
-  --title-shadow: #ff0070;
-  --title-decor: #ff8dcb;
-  --hover-color: 1px solid #353430;
-  --background-color: #fff1f7;
-  --background-image: url(../images/cover-image-light.png);
-  --menu-color: var(--main-text-color);
-  --rec-color: var(--background-color);
-  --article-title-color: var(--main-text-color);
-  --section-title-color: var(--main-text-color);
-  --link-shadow: var(--title-decor);
+@media (prefers-color-scheme: light) {
+  .page.theme_light,
+  .page.theme_auto {
+    --main-text-color: #353430;
+    --title-color: #ffc2e6;
+    --title-shadow: #ff0070;
+    --title-decor: #ff8dcb;
+    --hover-color: 1px solid #353430;
+    --background-color: #fff1f7;
+    --background-image: url(../images/cover-image-light.png);
+    --menu-color: var(--main-text-color);
+    --rec-color: var(--background-color);
+    --article-title-color: var(--main-text-color);
+    --section-title-color: var(--main-text-color);
+    --link-shadow: var(--title-decor);
+  }
 }
