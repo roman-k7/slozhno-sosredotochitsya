@@ -8,7 +8,7 @@
 
 body {
   margin: 0 auto;
-  font-family: var(--main-font);
+  font-family: var(--main-font),Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   min-inline-size: 375px;

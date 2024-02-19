@@ -11,7 +11,7 @@
   --title-color: #ffc2e6;
   --title-shadow: #ff0070;
   --title-decor: #ff8dcb;
-  --hover-color: 1px solid #353430;
+  --hover-color: 1px solid rgba(53, 52, 48, 0.4);
   --background-color: #fff1f7;
   --background-image: url(../images/cover-image-light.png);
   --menu-color: var(--main-text-color);
