@@ -3,7 +3,7 @@
   и их переопределение под различные устройства
 */
 :root {
-  --main-font: "IBM Plex mono";
+  --main-font: "IBM Plex mono", Arial, sans-serif;
 }
 
 :root {
